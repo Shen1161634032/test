@@ -1,0 +1,17 @@
+*{  margin: 0 ;    padding: 0;  }
+
+.modal{width: 100%; height: 100%; position: fixed; background: rgba(0,0,0,.3);left: 0;top: 0;}
+#box{ z-index: 100; background: #ccc; width: 400px;height: 300px;border: 1px solid; display: flex;flex-direction: column;align-content: space-around; align-items: center }
+#delBtn{position: absolute;left: 372px;top: 9px;}
+h3{width: 400px;height: 40px; text-align: center; line-height:50px;  background: #ccc}
+#text {padding: 5px 0; margin-top:10px;}
+#importText{width: 300px;  height: 150px; resize: none;margin-top:10px ;}
+.btnWrap{ height: 58px;width: 322px;display: flex; justify-content: space-around;}
+#submitBtn{line-height: 58px;}
+#cancelBtn{line-height: 58px;}
+ul{ width: 300px; height: 300px; margin: 0 auto;}
+ul .ac {  width: 300px; height: 300px;margin: 10px 0; list-style: none; background: #ccc}
+li {list-style: none; }
+ol{
+position: absolute;	
+}

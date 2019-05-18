@@ -1,0 +1,91 @@
+*{
+	margin: 0;
+	padding: 0;
+	
+}
+a{
+	text-decoration: none;
+}
+li{
+	list-style: none;
+}
+#box{
+	margin: 100px auto;
+	width: 350px;
+	height: 480px;
+	overflow: hidden;
+	
+	position: relative;
+}
+#box .banner{
+	width: 100%;
+	height: 100%;
+	position: relative;
+	
+	top: -480px;
+}
+#box .banner .img {
+	width:  350px;
+	height: 100%;
+	float: left;
+	
+}
+#box .banner .img a {
+	width:  350px;
+	height: 100%;
+	display: block;
+	
+}
+#box .banner .img a  img {
+	width: 100%;
+	height: 100%;
+	
+	
+}
+#box .btn {
+	height: 30px;
+	position: absolute;
+	width: 350px;
+	top:420px;
+	left:90px;
+	right: 0;
+	margin: auto;
+	
+	
+}
+#box .btn li {
+	width: 30px;
+	text-align: center;
+	line-height: 30px;
+	height: 30px;
+	float: left;
+	border-radius:50% ;
+}
+#left{
+	position: absolute;
+	width:50px ;
+	height: 30px;
+	top:220px ;
+	background: rgba(0,0,0,.4);
+	font-weight: 900;
+	font-size: 30px;
+	text-align: center;
+	line-height: 30px;
+	display: none;
+}
+#right{
+	position: absolute;
+	width:50px ;
+	height: 30px;
+	top: 220px;
+	left: 300px;
+	background: rgba(0,0,0,.4);
+	font-weight: 900;
+	font-size: 30px;
+	text-align: center;
+	line-height: 30px;
+	display: none;
+}
+#box .btn .ac{
+	background: orange;
+}
